@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="mrp.menu_mrp_bom" model="ir.ui.menu">
+            <field name="name">Master Data</field>
+        </record>
+        <!-- Redefine the existing menu item with id="menu_mrp_plm_workcenters" -->
+        <!--        <record id="mrp_plm.menu_mrp_plm_workcenters" model="ir.ui.menu">-->
+        <!--            <field name="parent_id" ref="mrp.menu_mrp_bom"/>-->
+        <!--        </record>-->
+    </data>
+</odoo>
