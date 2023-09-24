@@ -3,7 +3,7 @@
 
 {
     'name': 'Manufacturing Process Costing SGT',
-    'version': '16',
+    'version': '16.0.1.0.0',
     'category': 'Manufacturing',
     'summary': 'This plugin helps to show process costing on Manufacturing Order based on BOM',
     'description': """
