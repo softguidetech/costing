@@ -36,13 +36,13 @@
                         <td><span t-field="o.bom_id.product_tmpl_id.name" /></td>
                         
                     </tr>
-                    <tr style="padding: 8px;text-align: left;border-top: 1px solid #ddd;">
-                        <td><strong >Routing : </strong> </td>
-                        <td><span t-field="o.routing_id.name" /></td>
-                        
-                        <td></td>
-                        <td></td>
-                    </tr>
+<!--                    <tr style="padding: 8px;text-align: left;border-top: 1px solid #ddd;">-->
+<!--                        <td><strong >Routing : </strong> </td>-->
+<!--                        <td><span t-field="o.routing_id.name" /></td>-->
+<!--                        -->
+<!--                        <td></td>-->
+<!--                        <td></td>-->
+<!--                    </tr>-->
                 </table>
                 
                 <h2>Consumed Materials</h2><br/>
@@ -304,7 +304,7 @@
 <template id="mrp_production_order_report">
     <t t-call="web.html_container">
         <t t-foreach="doc_ids" t-as="o">
-            <t t-call="bi_odoo_process_costing_manufacturing.mrp_production_order_report_custom" />
+            <t t-call="process_costing_manufacturing_sgt.mrp_production_order_report_custom" />
         </t>
     </t>
 </template>

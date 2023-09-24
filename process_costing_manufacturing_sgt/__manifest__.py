@@ -23,5 +23,5 @@
     ],
     'installable': True,
     'auto_install': False,
-    "images": ['static/description/sgt.png'],
+    "images": ['static/description/icon.png'],
 }
