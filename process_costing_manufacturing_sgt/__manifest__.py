@@ -8,6 +8,8 @@
     'summary': 'This plugin helps to show process costing on Manufacturing Order based on BOM',
     'description': """
                    """,
+    'price': 85.00,
+    'currency': "EUR",
     'author': 'SGT',
     'category': 'Manufacturing',
     'website': "http://www.softguidetech.com",
